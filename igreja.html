@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Igreja de Martins</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Igreja de Martins</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="igreja.html">Igreja</a></li>
+          <li><a href="museu.html">Museu</a></li>
+          <li><a href="hotel.html">Hotel</a></li>
+          <li><a href="mirante.html">Mirante</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="info">
+      <h2>Conheça a Igreja de Martins</h2>
+      <p>
+        A Igreja de Martins é um dos pontos turísticos mais importantes da
+        cidade. Ela foi construída no século XIX e é um exemplo de arquitetura
+        colonial.
+      </p>
+
+      <h3>Galeria de Imagens</h3>
+      <div class="carrossel-container">
+        <button class="prev" onclick="moverCarrossel(-1)">&#10094;</button>
+        <div class="carrossel">
+            <img src="igreja1.jpeg" alt="Imagem 1" class="carrossel-imagem">
+            <img src="igreja2.jpeg" alt="Imagem 2" class="carrossel-imagem">
+        </div>
+        <button class="next" onclick="moverCarrossel(1)">&#10095;</button>
+    </div>
+      </div>
+      <footer>
+        <p>&copy; 2024 Todos os direitos reservados - Martins RN</p>
+      </footer>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

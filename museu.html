@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Museu de Martins</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Museu de Martins</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="igreja.html">Igreja</a></li>
+          <li><a href="museu.html">Museu</a></li>
+          <li><a href="hotel.html">Hotel</a></li>
+          <li><a href="mirante.html">Mirante</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="info">
+      <h2>Conheça o Museu de Martins</h2>
+      <p>
+        O Museu de Martins exibe a história local, com acervo de objetos, fotos
+        e relíquias que contam sobre a cultura da região.
+      </p>
+
+      <h3>Galeria de Imagens</h3>
+      <div class="carrossel-container">
+        <button class="prev" onclick="moverCarrossel(-1)">&#10094;</button>
+        <div class="carrossel">
+          <img src="museu1.jpeg" alt="Imagem 1" class="carrossel-imagem" />
+          <img src="museu2.jpeg" alt="Imagem 2" class="carrossel-imagem" />
+          <img src="museu3.jpeg" alt="Imagem 3" class="carrossel-imagem" />
+          <img src="museu4.jpeg" alt="Imagem 4" class="carrossel-imagem" />
+          <img src="museu5.jpeg" alt="Imagem 5" class="carrossel-imagem" />
+          <img src="museu6.jpeg" alt="Imagem 6" class="carrossel-imagem" />
+          <img src="museu7.jpeg" alt="Imagem 7" class="carrossel-imagem" />
+          <img src="museu8.jpeg" alt="Imagem 8" class="carrossel-imagem" />
+          <img src="museu9.jpeg" alt="Imagem 9" class="carrossel-imagem" />
+          <img src="museu10.jpeg" alt="Imagem 10" class="carrossel-imagem" />
+          <img src="museu11.jpeg" alt="Imagem 11" class="carrossel-imagem" />
+          <img src="museu12.jpeg" alt="Imagem 12" class="carrossel-imagem" />
+          <img src="museu13.jpeg" alt="Imagem 13" class="carrossel-imagem" />
+        </div>
+        <button class="next" onclick="moverCarrossel(1)">&#10095;</button>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2024 Todos os direitos reservados - Martins RN</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

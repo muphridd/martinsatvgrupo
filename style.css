@@ -1,0 +1,150 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa; /* Cor de fundo clara */
+  color: #333;
+  line-height: 1.6;
+}
+/* Fundo e texto padrão para todas as páginas */
+body {
+  background-color: #d9f2e6; /* Verde pastel */
+  color: #2d6a4f; /* Texto em verde médio */
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #3a5a40; /* Verde musgo escuro */
+  color: #f4fce3; /* Bege claro */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #f4fce3;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Seção de introdução */
+.intro {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #d9f2e6; /* Verde pastel */
+  color: #2d6a4f; /* Verde médio */
+}
+
+.intro h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Centralização da imagem */
+.intro img {
+  display: block;
+  margin: 30px auto;
+  max-width: 90%;
+  height: auto;
+  border: 5px solid #52b788; /* Verde vibrante */
+  border-radius: 10px;
+}
+
+/* Seções específicas */
+.info {
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  border: 1px solid #cce3de; /* Verde acinzentado */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+.carrossel-container {
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  overflow: hidden;
+}
+
+.carrossel {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carrossel-imagem {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+footer {
+  background-color: #f4f4f4; /* Cor de fundo */
+  text-align: center; /* Centraliza o texto */
+  padding: 10px 0; /* Espaçamento interno */
+  font-size: 14px; /* Tamanho da fonte */
+  color: #555; /* Cor do texto */
+  position: fixed; /* Fixa o rodapé na parte inferior */
+  bottom: 0; /* Mantém na parte inferior */
+  width: 100%; /* Ocupa toda a largura da página */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+}

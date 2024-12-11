@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Serrano</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Hotel Serrano</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="igreja.html">Igreja</a></li>
+          <li><a href="museu.html">Museu</a></li>
+          <li><a href="hotel.html">Hotel</a></li>
+          <li><a href="mirante.html">Mirante</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="info">
+      <h2>Hospede-se no Hotel Serrano</h2>
+      <p>
+        O Hotel Serrano é o local perfeito para quem deseja conforto e
+        proximidade com os principais pontos turísticos de Martins.
+      </p>
+
+      <h3>Galeria de Imagens</h3>
+      <div class="carrossel-container">
+        <button class="prev" onclick="moverCarrossel(-1)">&#10094;</button>
+        <div class="carrossel">
+          <img
+            src="hotel1.jpeg"
+            alt="Hotel Serrano 1"
+            class="carrossel-imagem"
+          />
+          <img
+            src="hotel2.jpeg"
+            alt="Hotel Serrano 2"
+            class="carrossel-imagem"
+          />
+          <img
+            src="hotel3.jpeg"
+            alt="Hotel Serrano 3"
+            class="carrossel-imagem"
+          />
+          <img
+            src="hotel4.jpeg"
+            alt="Hotel Serrano 4"
+            class="carrossel-imagem"
+          />
+        </div>
+        <button class="next" onclick="moverCarrossel(1)">&#10095;</button>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2024 Todos os direitos reservados - Martins RN</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
